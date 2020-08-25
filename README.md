@@ -4,9 +4,9 @@
 
 ## M000 | WARMING UP
 
-- [ ] Greeter
-- [ ] VS [homepage](https://visualstudio.microsoft.com/de/)
-- [ ] [vs-shortcuts](VS-SHORTCUTS.md)
+- [x] Greeter
+- [x] VS [homepage](https://visualstudio.microsoft.com/de/)
+- [x] [vs-shortcuts](VS-SHORTCUTS.md)
 - [ ] Git
 - [ ] [git-commands](GIT-COMMANDS.md)
 
@@ -18,11 +18,11 @@ commit
 
 ## M010 | GETTING STARTED
 
-- [ ] Intro [csharp docs](https://docs.microsoft.com/de-de/dotnet/csharp/)
-- [ ] .NET [dotnet docs](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)
+- [x] Intro [csharp docs](https://docs.microsoft.com/de-de/dotnet/csharp/)
+- [x] .NET [dotnet docs](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)
 - [ ] [HelloWorld.cs](M01HelloWorld/HelloWorld.cs)
-- [ ] [DConsole.cs](M01Demo-Console/DConsole.cs)
-- [ ] [SPICKER](CSHARP-CHEATSHEET.md)
+- [x] [DConsole.cs](M01Demo-Console/DConsole.cs)
+- [x] [SPICKER](CSHARP-CHEATSHEET.md)
 
 sln props > startup projects > current
 
