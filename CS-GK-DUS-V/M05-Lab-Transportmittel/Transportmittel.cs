@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace M05_Lab_Fuhrpark
+namespace M05_Lab_Transportmittel
 {
     public class Transportmittel
     {

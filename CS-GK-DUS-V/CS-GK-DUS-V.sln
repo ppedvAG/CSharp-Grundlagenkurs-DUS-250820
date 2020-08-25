@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M05-Demo-Class-Lib-Consumer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M05-Lab-Fuhrpark", "M05-Lab-Fuhrpark\M05-Lab-Fuhrpark.csproj", "{7D162D37-C566-4748-9433-D1FF34C23B02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M06-Lab-Inheritence", "M06-Lab-Inheritence\M06-Lab-Inheritence.csproj", "{57CF4634-28B4-4F56-90C8-FCF3BDF32A7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M05-Lab-Transportmittel", "M05-Lab-Transportmittel\M05-Lab-Transportmittel.csproj", "{49F7D77B-B163-4587-8CB2-207DF552853B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{7D162D37-C566-4748-9433-D1FF34C23B02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D162D37-C566-4748-9433-D1FF34C23B02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D162D37-C566-4748-9433-D1FF34C23B02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57CF4634-28B4-4F56-90C8-FCF3BDF32A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57CF4634-28B4-4F56-90C8-FCF3BDF32A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57CF4634-28B4-4F56-90C8-FCF3BDF32A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57CF4634-28B4-4F56-90C8-FCF3BDF32A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49F7D77B-B163-4587-8CB2-207DF552853B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49F7D77B-B163-4587-8CB2-207DF552853B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49F7D77B-B163-4587-8CB2-207DF552853B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49F7D77B-B163-4587-8CB2-207DF552853B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

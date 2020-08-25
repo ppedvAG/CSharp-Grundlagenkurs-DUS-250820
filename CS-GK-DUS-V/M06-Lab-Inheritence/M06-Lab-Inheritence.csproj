@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7D162D37-C566-4748-9433-D1FF34C23B02}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>M05_Lab_Fuhrpark</RootNamespace>
-    <AssemblyName>M05-Lab-Fuhrpark</AssemblyName>
+    <ProjectGuid>{57CF4634-28B4-4F56-90C8-FCF3BDF32A7A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>M06_Lab_Inheritence</RootNamespace>
+    <AssemblyName>M06-Lab-Inheritence</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,20 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="M05Main.cs" />
+    <Compile Include="Flugzeug.cs" />
+    <Compile Include="PKW.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
+    <Compile Include="Schiff.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\M05-Lab-Transportmittel\M05-Lab-Transportmittel.csproj">
       <Project>{49f7d77b-b163-4587-8cb2-207df552853b}</Project>
       <Name>M05-Lab-Transportmittel</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\M06-Lab-Inheritence\M06-Lab-Inheritence.csproj">
-      <Project>{57cf4634-28b4-4f56-90c8-fcf3bdf32a7a}</Project>
-      <Name>M06-Lab-Inheritence</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -69,17 +69,17 @@ sln props > startup projects > current
 
 ## M050 | CLASSES & OOP
 
-- [ ] constructor
-- [ ] fields
-- [ ] props
-- [ ] class methods
-- [ ] access modifier
-- [ ] inctances / objects
-- [ ] destructor
+- [x] constructor
+- [x] fields
+- [x] props
+- [x] class methods
+- [x] access modifier
+- [x] inctances / objects
+- [x] destructor
 - [ ] [Ü Transport](/M5Fuhrpark/Transport.cs)
 - [ ] [Ü TransportConsumer](/M5Fuhrpark/FuhrparkApp.cs)
 
-[commit]()
+[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/9e2084238f54f7829f57e17a1f58b7f1b5bc6a14)
 
 ## M060 | INHERITENCE / VERERBUNG
 
