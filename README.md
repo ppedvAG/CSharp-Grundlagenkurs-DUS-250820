@@ -21,12 +21,12 @@ commit
 - [x] Intro [csharp docs](https://docs.microsoft.com/de-de/dotnet/csharp/)
 - [x] .NET [dotnet docs](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)
 - [ ] [HelloWorld.cs](M01HelloWorld/HelloWorld.cs)
-- [x] [DConsole.cs](M01Demo-Console/DConsole.cs)
+- [x] [DConsole.cs](CS-GK-DUS-V/M01-Demo-Console/Program.cs)
 - [x] [SPICKER](CSHARP-CHEATSHEET.md)
 
 sln props > startup projects > current
 
-[commit]()
+[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/be500e526f714ea2da03717f6da18f275aad089a)
 
 ## M020 | DATA TYPES, OPERATORS
 
