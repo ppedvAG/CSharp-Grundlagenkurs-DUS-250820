@@ -31,16 +31,16 @@ sln props > startup projects > current
 ## M020 | DATA TYPES, OPERATORS
 
 - [x] Datentypen
-- [ ] [bool.cs](M02Demo-bool/Dbool.cs)
-- [x] [string.cs](M02Demo-string/Dstring.cs)
-- [ ] [int.cs](M02Demo-int/Dint.cs)
-- [x] [double.cs](M02Demo-double/Ddouble.cs)
-- [ ] Operatoren
+- [x] [bool.cs](CS-GK-DUS-V/M02-Demo-bool/Dbool.cs)
+- [x] [string.cs](CS-GK-DUS-V/M02-Demo-string/Dstring.cs)
+- [x] [int.cs](CS-GK-DUS-V/M02-Demo-int/Dint.cs)
+- [x] [double.cs](CS-GK-DUS-V/M02-Demo-double/Ddouble.cs)
+- [x] Operatoren
 - [x] Parsing & Casting
-- [ ] [enum](M02Demo-enum/Denum.cs)
+- [x] [enum](CS-GK-DUS-V/M02-Demo-enum/Denum.cs)
 - [x] [Lab MiniRechner](CS-GK-DUS-V/M02-Lab-MiniRechner/MiniRechner.cs)
 
-[commit]()
+[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/8628565d717c043d3f12def3b79114ca47a13288)
 
 - [ ] HasFlag
 
@@ -48,26 +48,24 @@ sln props > startup projects > current
       
 ## M030 | ARRAYS & CONTROLS
 
-- [ ] [Arrays](M03ArrayNControls/MyArray.cs)
-- [ ] [if](M03ArrayNControls/MyIf.cs)
-- [ ] for, siehe Arrays
-- [ ] while & do while, siehe Zahlenratespiel
-- [ ] [Klasse Random](M03ArrayNControls/MyRandom.cs)
-- [ ] [Lab Zahlenratespiel](M03Lab-Zahlenratespiel/Zahlenraten.cs)
+- [x] [Arrays](CS-GK-DUS-V/M03ArrayNControls/MyArray.cs)
+- [x] [if](CS-GK-DUS-V/M03ArrayNControls/MyIf.cs)
+- [x] for, siehe Arrays
+- [x] while & do while, siehe Zahlenratespiel
+- [x] [Klasse Random](CS-GK-DUS-V/M03ArrayNControls/MyRandom.cs)
+- [x] [Lab Zahlenratespiel](CS-GK-DUS-V/M03Lab-Zahlenratespiel/Zahlenraten.cs)
 
-[commit]()
+[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/3071ac28b1ee9f2d747493e321cd69d1fc62ff17)
 
 ## M040 | METHODS
 
-- [ ] arguments
-- [ ] parameters
-- [ ] params
-- [ ] return
-- [ ] overloads
-- [ ] out & ref parameters & args
-- [ ] [Demo Methods](M04Demo-Methods/DMethods.cs)
-
-[commit]()
+- [x] arguments
+- [x] parameters
+- [x] params
+- [x] return
+- [x] overloads
+- [x] out & ref parameters & args
+- [x] [Demo Methods](CS-GK-DUS-V/M04-Demo-Methods/DMethods.cs)
 
 ## M050 | CLASSES & OOP
 

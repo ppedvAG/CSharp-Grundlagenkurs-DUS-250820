@@ -78,7 +78,8 @@ public class Person
 ## CLASS PROPS
 
 Konvention - PascalCase
-get & set ohne Modifizierer sind public.
+
+ohne Modifizierer sind get & set public.
 
 **SEMANTIC SYNTAX**
 
@@ -133,6 +134,8 @@ public Person(string fn, string ln)
 ## CLASS METHODS
 
 Konventionen - PascalCase 
+
+Ohne private/public sind die Methoden private
 
 **SEMANTIC SYNTAX**
 
