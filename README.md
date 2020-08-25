@@ -30,15 +30,15 @@ sln props > startup projects > current
 
 ## M020 | DATA TYPES, OPERATORS
 
-- [ ] Datentypen
+- [x] Datentypen
 - [ ] [bool.cs](M02Demo-bool/Dbool.cs)
-- [ ] [string.cs](M02Demo-string/Dstring.cs)
+- [x] [string.cs](M02Demo-string/Dstring.cs)
 - [ ] [int.cs](M02Demo-int/Dint.cs)
-- [ ] [double.cs](M02Demo-double/Ddouble.cs)
+- [x] [double.cs](M02Demo-double/Ddouble.cs)
 - [ ] Operatoren
-- [ ] Parsing & Casting
+- [x] Parsing & Casting
 - [ ] [enum](M02Demo-enum/Denum.cs)
-- [ ] [Lab MiniRechner](M02Lab-MiniRechner/MiniRechner.cs)
+- [x] [Lab MiniRechner](CS-GK-DUS-V/M02-Lab-MiniRechner/MiniRechner.cs)
 
 [commit]()
 
