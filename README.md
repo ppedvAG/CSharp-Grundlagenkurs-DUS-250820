@@ -83,14 +83,14 @@ sln props > startup projects > current
 
 ## M060 | INHERITENCE / VERERBUNG
 
-- [ ] base
-- [ ] virtual & override methods
-- [ ] abstract methods
-- [ ] [Ü Flugzeug](M05Lab-Fuhrpark/Flugzeug.cs)
-- [ ] [Ü PKW](M05Lab-Fuhrpark/PKW.cs)
-- [ ] [Ü Schiff](M05Lab-Fuhrpark/Schiff.cs)
+- [x] base
+- [x] virtual & override methods
+- [x] abstract methods
+- [x] [Ü Flugzeug](M05Lab-Fuhrpark/Flugzeug.cs)
+- [x] [Ü PKW](M05Lab-Fuhrpark/PKW.cs)
+- [x] [Ü Schiff](M05Lab-Fuhrpark/Schiff.cs)
 
-[commit]()
+[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/3dd800a677f469fc10d9bcc914e6318965cb1295)
 
 ## M070 | INTERFACES & POLYMORPHISM
 
