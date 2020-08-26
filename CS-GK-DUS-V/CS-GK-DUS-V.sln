@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M07-Lab-Interfaces", "M07-L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M09-Demo-WinForms", "M09-Demo-WinForms\M09-Demo-WinForms.csproj", "{5E1BBB5D-AA82-4F56-9DCD-8B04109F5D59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M10-Demo-delegates", "M10-Demo-delegates\M10-Demo-delegates.csproj", "{77003C8A-B681-47B3-A637-E3A6A419A105}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{5E1BBB5D-AA82-4F56-9DCD-8B04109F5D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E1BBB5D-AA82-4F56-9DCD-8B04109F5D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E1BBB5D-AA82-4F56-9DCD-8B04109F5D59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77003C8A-B681-47B3-A637-E3A6A419A105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77003C8A-B681-47B3-A637-E3A6A419A105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77003C8A-B681-47B3-A637-E3A6A419A105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77003C8A-B681-47B3-A637-E3A6A419A105}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
