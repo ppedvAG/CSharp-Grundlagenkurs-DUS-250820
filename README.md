@@ -99,7 +99,7 @@ sln props > startup projects > current
 - [ ] [Ü IKannAndereTransportieren](M05Lab-Fuhrpark/IKannAndereTransportieren.cs)
 - [ ] [Ü IKannRollen](M05Lab-Fuhrpark/IRollbar.cs)
 
-[commit]()
+[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/51975825d1e35a972c76903b78ce90d8adade7b0)
 
 ## M080 | GENERIC DATA STRUCTURES
 
@@ -115,10 +115,10 @@ sln props > startup projects > current
 
 ## M090 | WINDOWS FORMS
 
-- [ ] partial classes
-- [ ] widgets / components
-- [ ] component props
-- [ ] [TicTacToe](M09Demo-WinForms/Program.cs)
+- [x] partial classes
+- [x] widgets / components
+- [x] component props
+- [x] [TicTacToe](CS-GK-DUS-V/M09-Demo-WinForms/Program.cs)
 
 [commit]()
 
