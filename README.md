@@ -153,30 +153,28 @@ sln props > startup projects > current
 - [x] SaveFileDialog & OpenFileDialog
 - [x] StreamReader & StreamWriter
 - [x] JSON, serialize & deserialize 
-- [x] [M12 File Access & JSON](M12Demo-FileAccess/Program.cs)
+- [x] [M12 File Access & JSON](CS-GK-DUS-V/M12-Demo-File-Access/Program.cs)
 - [ ] [Ü Schreibe & Lese generisch und mit Open/SaveFileDialog]()
 
-[commit]()
+[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/fe0010aca67a2be5ea1e69133ea703995c2e5238)
 
 Ü Anmeldeformular? / Gästeliste?
 
-## M013 | Entity Framework Core
+## M013 | TAP (async/await)
 
-- [ ] ORM
-- [ ] DBContext
-- [ ] DBSet & Entities
-- [ ] [Demo ](M13Demo-EntityFramework/EFDbContext.cs)
+- [x] Task
+- [x] async/await
+- [x] Threads
+- [x] [Demo async await ](CS-GK-DUS-V/M13-Demo-Async-Await/M13DemoMain.cs)
+- [x] [Demo Task](CS-GK-DUS-V/M13-Demo-Async-Await/MyTask.cs)
+- [ ] siehe Fuhrpark, zufälliges Erzeugen
 
 [commit]()
 
-## M014 | TAP (async/await)
+## M014 | HttpClient & Linq
 
-- [ ] Task
-- [ ] async/await
-- [ ] Threads
-- [ ] [Demo Task](M14Demo-AsyncAwait/MyTask.cs)
-- [ ] [Demo async await](M14Demo-AsyncAwait/Program.cs)
-- [ ] siehe Fuhrpark, zufälliges Erzeugen
+- [x] [HttpClient](M14Demo-HttpClient/Form1.cs)
+- [ ] [LINQ Befehle](M17Demo-HttpClient/Form1.cs)
 
 [commit]()
 
@@ -197,10 +195,12 @@ sln props > startup projects > current
 
 [commit]()
 
-## M017 | HttpClient & Linq
+## M017 | Entity Framework Core
 
-- [ ] [HttpClient](M17Demo-HttpClient/Form1.cs)
-- [ ] [LINQ Befehle](M17Demo-HttpClient/Form1.cs)
+- [ ] ORM
+- [ ] DBContext
+- [ ] DBSet & Entities
+- [ ] [Demo ](M13Demo-EntityFramework/EFDbContext.cs)
 
 [commit]()
 
