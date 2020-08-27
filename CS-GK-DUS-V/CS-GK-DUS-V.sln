@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M10-Demo-delegates", "M10-D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M02-Demo-Primitives", "M02-Demo-Primitives\M02-Demo-Primitives.csproj", "{4813F46E-69F9-42C4-9B4D-8B8D19E5D25B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M12-Demo-File-Access", "M12-Demo-File-Access\M12-Demo-File-Access.csproj", "{F14B20A1-E687-4FED-A19E-DDB9C19E934C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{4813F46E-69F9-42C4-9B4D-8B8D19E5D25B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4813F46E-69F9-42C4-9B4D-8B8D19E5D25B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4813F46E-69F9-42C4-9B4D-8B8D19E5D25B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F14B20A1-E687-4FED-A19E-DDB9C19E934C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14B20A1-E687-4FED-A19E-DDB9C19E934C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14B20A1-E687-4FED-A19E-DDB9C19E934C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14B20A1-E687-4FED-A19E-DDB9C19E934C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

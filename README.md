@@ -10,6 +10,8 @@
 - [ ] Git
 - [ ] [git-commands](GIT-COMMANDS.md)
 
+Tools > Options > General > Color Theme
+
 VS Installer > installierte Version ändern > Sprachpakete
 
 Tools > Options > Text Editor > All Languages > General > Line numbers
@@ -130,26 +132,28 @@ sln props > startup projects > current
 - [x] event handler
 - [x] [M10 Delegates](CS-GK-DUS-V/M10-Demo-Delegates/Program.cs)
 
-[commit]()
+[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/3e75cda363bd72d129509bffda17376c168b130a)
 
 Ü Einfacher Taschenrechner?
 
 ## M011 | Exception-Handling​
 
-- [ ] Exception & throw
-- [ ] try catch finally
-- [ ] Exception types
-- [ ] Custom Exceptions
+- [x] Exception & throw
+- [x] try catch finally
+- [x] Exception types
+- [x] Custom Exceptions
 - [ ] [standard exception](https://docs.microsoft.com/de-de/dotnet/standard/design-guidelines/using-standard-exception-types)
 - [ ] [Demo-Exception](M08GenericDataStructures/MyList.cs)
 - [ ] [customized exception](M08GenericDataStructures/ItemDoesNotExist.cs)
 
+[commit]()
+
 ## M012 | File Access Dateizugriff​
 
-- [ ] SaveFileDialog & OpenFileDialog
-- [ ] StreamReader & StreamWriter
-- [ ] JSON, serialize & deserialize 
-- [ ] [M12 File Access & JSON](M12Demo-FileAccess/Program.cs)
+- [x] SaveFileDialog & OpenFileDialog
+- [x] StreamReader & StreamWriter
+- [x] JSON, serialize & deserialize 
+- [x] [M12 File Access & JSON](M12Demo-FileAccess/Program.cs)
 - [ ] [Ü Schreibe & Lese generisch und mit Open/SaveFileDialog]()
 
 [commit]()
