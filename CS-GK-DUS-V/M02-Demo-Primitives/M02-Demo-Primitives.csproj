@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A4333587-C3C5-48F2-B087-0577D6658255}</ProjectGuid>
+    <ProjectGuid>{4813F46E-69F9-42C4-9B4D-8B8D19E5D25B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>M03ArrayNControls</RootNamespace>
-    <AssemblyName>M03ArrayNControls</AssemblyName>
+    <RootNamespace>M02_Demo_Primitives</RootNamespace>
+    <AssemblyName>M02-Demo-Primitives</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="M3Main.cs" />
-    <Compile Include="MyArray.cs" />
-    <Compile Include="MyForeach.cs" />
-    <Compile Include="MyIf.cs" />
-    <Compile Include="MyRandom.cs" />
+    <Compile Include="M2DemoMain.cs" />
+    <Compile Include="MyBool.cs" />
+    <Compile Include="MyDouble.cs" />
+    <Compile Include="MyEnum.cs" />
+    <Compile Include="MyInt.cs" />
+    <Compile Include="MyString.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

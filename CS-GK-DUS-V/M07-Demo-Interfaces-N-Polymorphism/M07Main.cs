@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,7 +16,7 @@ namespace M07_Demo_Interfaces_N_Polymorphism
             Himmelskörper hk1 = new Himmelskörper();
             hk1.Gewicht = 50;
             hk1.EntfernungZurErde = 500;
-            Console.WriteLine(hk1.ToString());            
+            Console.WriteLine(hk1.ToString());
             hk1.Bewege(5);
 
             Console.WriteLine("\n### Sonne sonne = new Sonne() ###");
@@ -38,7 +39,7 @@ namespace M07_Demo_Interfaces_N_Polymorphism
             Himmelskörper hk2 = new Sonne();
             hk2.Gewicht = 70;
             hk2.EntfernungZurErde = 700;
-            // hk2.Temperatur // no definition for Temperatur
+            // hk2.Temperatur // no definition or no access for Temperatur
             Console.WriteLine(hk2.ToString());
             hk2.Bewege(5);
             Console.WriteLine($"hk2.GetType(): {hk2.GetType()}");
@@ -48,9 +49,22 @@ namespace M07_Demo_Interfaces_N_Polymorphism
             Console.WriteLine($"typeof(Sonne).IsInstanceOfType(hk2): {typeof(Sonne).IsInstanceOfType(hk2)}");
             Console.WriteLine($"hk2.GetType() == typeof(Sonne): {hk2.GetType() == typeof(Sonne)}");
             Console.WriteLine($"hk2.GetType() == typeof(Himmelskörper): {hk2.GetType() == typeof(Himmelskörper)}");
-            // ??? wie kann ich sehen, dass hk2 die Eigenschaft Temperatur nicht hat bzw dadrauf nicht zugreifen kann
-            //switch 
-            //if (when hk2.Temperatur )
+            
+            
+            // !!! wie kann ich sehen, dass hk2 die Eigenschaft Temperatur nicht hat bzw dadrauf nicht zugreifen kann
+
+            Console.WriteLine($"GetStaticType(hk2): {GetStaticType(hk2)}");
+            foreach (var item in GetStaticType(hk2).GetProperties())
+            {
+                Console.WriteLine($"public Prop: {item}");
+            }
+            PropertyInfo tempProp = typeof(Sonne).GetProperty("Temperatur");
+            if (GetStaticType(hk2).GetProperties().Contains(tempProp))
+                Console.WriteLine("hk2 hat Prop Temperatur");
+            else
+                Console.WriteLine("hk2 hat Prop Temperatur nicht oder kann dadrauf nicht zugreifen");
+            
+
 
 
             Console.WriteLine($"\nobject.Equals(sonne, hk2): {object.Equals(sonne, hk2)}");
@@ -69,11 +83,17 @@ namespace M07_Demo_Interfaces_N_Polymorphism
             sonne2.ÄndereZusammensetzung(new string[] { "elem3", "elem4" });
 
             Console.WriteLine("sonne2.Zusammensetzung:");
-            foreach(string el in sonne2.Zusammensetzung)            
+            foreach (string el in sonne2.Zusammensetzung)
                 Console.WriteLine(el);
-            
+
             Console.ReadKey();
 
+        }
+
+        // Methode, um den Variablentyp (static type) einer Variable zu bekommen
+        static Type GetStaticType<T>(T x)
+        {
+            return typeof(T);
         }
     }
 }

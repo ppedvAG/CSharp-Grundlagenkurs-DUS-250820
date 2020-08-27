@@ -23,6 +23,13 @@ namespace M03ArrayNControls
                 Console.WriteLine("myInt1 ist größer");
             }
 
+            // Haben die if- und else-Blöcke nur je eine Anweisung, 
+            // sind die geschweiften Klammern optional
+            if (myInt1 < myInt2)
+               Console.WriteLine("myInt2 ist größer");            
+            else
+                Console.WriteLine("myInt1 ist größer");
+
             Console.WriteLine("\nnull als Bedingung - in C# nicht möglich");
             //if (null)
             //{

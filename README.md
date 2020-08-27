@@ -1,4 +1,4 @@
-﻿# CSharp-Grundkurs-Ppedv-260520
+﻿# CSharp-Grundkurs-Ppedv- 25 08 2020
 
 # ABLAUF VOM KURS
 
@@ -124,11 +124,11 @@ sln props > startup projects > current
 
 ## M010 | DELEGATES & EVENTS
 
-- [ ] custom delegates
-- [ ] built-in delegates
-- [ ] anonumous functions
-- [ ] event handler
-- [ ] [M10 Delegates](M10Demo-Delegates/Program.cs)
+- [x] custom delegates
+- [x] built-in delegates
+- [x] anonumous functions
+- [x] event handler
+- [x] [M10 Delegates](CS-GK-DUS-V/M10-Demo-Delegates/Program.cs)
 
 [commit]()
 

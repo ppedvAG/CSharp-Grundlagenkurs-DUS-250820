@@ -11,6 +11,8 @@ namespace M01_Demo_Console
         int irgendwas = 44; //ein Klassenfeld
         static void Main(string[] args)
         {
+            Tell3FactsAboutYourself();
+
             #region WriteLine()
             Console.WriteLine("### WriteLine() ###");
             int alter = 35; //eine Methodenvariable
@@ -54,6 +56,13 @@ namespace M01_Demo_Console
             #endregion
 
 
+        }
+
+        static void Tell3FactsAboutYourself()
+        {
+            Console.WriteLine("\n #1");
+            Console.WriteLine("\n #2");
+            Console.WriteLine("\n #3");
         }
     }
 }
