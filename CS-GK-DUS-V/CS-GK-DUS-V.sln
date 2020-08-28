@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M15-Demo-LINQ", "M15-Demo-L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M16-Experiment-Dependency-Injection", "M16-Experiment-Dependency-Injection\M16-Experiment-Dependency-Injection.csproj", "{72FC177D-4078-42AD-9CA5-5891E18128D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M17-Demo-Timing", "M17-Demo-Timing\M17-Demo-Timing.csproj", "{64B88F8C-9F12-481A-8A57-09223AA945AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{72FC177D-4078-42AD-9CA5-5891E18128D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72FC177D-4078-42AD-9CA5-5891E18128D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72FC177D-4078-42AD-9CA5-5891E18128D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64B88F8C-9F12-481A-8A57-09223AA945AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B88F8C-9F12-481A-8A57-09223AA945AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B88F8C-9F12-481A-8A57-09223AA945AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B88F8C-9F12-481A-8A57-09223AA945AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

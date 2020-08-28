@@ -183,19 +183,17 @@ sln props > startup projects > current
 
 - [x] [DI](CS-GK-DUS-V/M16-Experiment-Dependency-Injection/M16Main.cs)
 
-[commit]()
+[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/e0455abfe1e7551e8815e5ab5edafe5ae2c8583f)
 
+## M017 | Timing Klassen
 
-
-## M015 | Timing Klassen
-
-- [ ] [Klasse Timing](M15Demo-Timing/Form1.cs#Timer)
+- [x] [Klasse Timing](CS-GK-DUS-V/M17-Demo-Timing/Form1.cs)
 - [ ] [Klasse Stopwatch](M15Demo-Timing/Form1.cs#Stopwatch)
 - [ ] [Ü kollidierende Buttons mit Timing]
 
 [commit]()
  
-## M016 | Unit-Tests
+## M018 | Unit-Tests
 
 - [ ] TestPackages & TestProject
 - [ ] TestClasses, TestMethods, TestAnnotations
@@ -204,7 +202,7 @@ sln props > startup projects > current
 
 [commit]()
 
-## M017 | Entity Framework Core
+## M019 | Entity Framework Core
 
 - [ ] ORM
 - [ ] DBContext
@@ -213,7 +211,7 @@ sln props > startup projects > current
 
 [commit]()
 
-## M018 | Debugging & Publishing
+## M020 | Debugging & Publishing
 
 commit
 
