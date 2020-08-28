@@ -1,19 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace M05_Lab_Transportmittel
+namespace M19_Demo_Entity_Framework.Models
 {
     public class Transportmittel
     {
-        // types
         public enum Zustand { aus, an }
 
         // props
+        [Key]
+        public int Id { get; set; }
+        [Required]
         public string Name { get; set; }
-        public uint MaximalGeschwindigkeit { get; }
+        [Required]
+        public uint MaximalGeschwindigkeit { get; set; }
+        [Required]
         public double Preis { get; set; }
         public uint AktuelleGeschwindigkeit { get; private set; }
         public Zustand FZustand { get; private set; }

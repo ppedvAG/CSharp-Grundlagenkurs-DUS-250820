@@ -191,7 +191,7 @@ sln props > startup projects > current
 - [ ] [Klasse Stopwatch](M15Demo-Timing/Form1.cs#Stopwatch)
 - [ ] [Ü kollidierende Buttons mit Timing]
 
-[commit]()
+[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/93e7be8a2860b2189371e34c7ddb455de7718346)
  
 ## M018 | Unit-Tests
 
@@ -204,10 +204,10 @@ sln props > startup projects > current
 
 ## M019 | Entity Framework Core
 
-- [ ] ORM
-- [ ] DBContext
-- [ ] DBSet & Entities
-- [ ] [Demo ](M13Demo-EntityFramework/EFDbContext.cs)
+- [x] ORM
+- [x] DBContext
+- [x] DBSet & Entities
+- [x] [Demo ](CS-GK-DUS-V/M19-Demo-Entity-Framework/EFDbContext.cs)
 
 [commit]()
 
