@@ -169,14 +169,23 @@ sln props > startup projects > current
 - [x] [Demo Task](CS-GK-DUS-V/M13-Demo-Async-Await/MyTask.cs)
 - [ ] siehe Fuhrpark, zufälliges Erzeugen
 
+[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/ab668d92efad4815b43ef0101c60435df68536be)
+
+## M014 | HttpClient
+
+- [x] [HttpClient](CS-GK-DUS-V/M14-Demo-HttpClient/Form1.cs)
+      
+## M015 | LINQ
+
+- [x] [LINQ Befehle](CS-GK-DUS-V/M15-Demo-LINQ/M15DemoMain.cs)
+
+## M016 | Dependency Injection
+
+- [x] [DI](CS-GK-DUS-V/M16-Experiment-Dependency-Injection/M16Main.cs)
+
 [commit]()
 
-## M014 | HttpClient & Linq
 
-- [x] [HttpClient](M14Demo-HttpClient/Form1.cs)
-- [ ] [LINQ Befehle](M17Demo-HttpClient/Form1.cs)
-
-[commit]()
 
 ## M015 | Timing Klassen
 
